@@ -4,7 +4,7 @@
     <artifactId>liquibase-ext-hbase</artifactId>
 
     <name>Liquibase HBASE extension</name>
-    <groupId>xiananliu</groupId>
+    <groupId>io.github.xiananliu</groupId>
     <version>1.0</version>
     <packaging>jar</packaging>
     <description>HBASE</description>
