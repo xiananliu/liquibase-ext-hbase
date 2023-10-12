@@ -9,6 +9,7 @@
     <packaging>jar</packaging>
     <description>HBASE</description>
 
+    <url>https://github.com/xiananliu/liquibase-ext-hbase</url>
     <properties>
         <java.version>1.8</java.version>
     </properties>
