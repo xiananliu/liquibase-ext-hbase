@@ -11,10 +11,38 @@ liquibase support hbase-phoenix
 添加本项目依赖即可
 
 ```xml
-<dependency>
-  <groupId>io.github.xiananliu</groupId>
-  <artifactId>liquibase-ext-hbase</artifactId>
-  <version>1.0</version>
-</dependency>
+    <dependency>
+      <groupId>io.github.xiananliu</groupId>
+      <artifactId>liquibase-ext-hbase</artifactId>
+      <version>1.0</version>
+    </dependency>
 
 ```
+别忘了liquibase 本身
+
+```xml
+    <dependency>
+        <groupId>org.liquibase</groupId>
+        <artifactId>liquibase-core</artifactId>
+        <version>4.8.0</version>
+    </dependency>
+```
+
+##其他说明
+
+默认依赖了此驱动，需要更换请自行排除
+```xml
+    <dependency>
+        <groupId>org.apache.phoenix</groupId>
+        <artifactId>phoenix-core</artifactId>
+        <version>5.0.0-HBase-2.0</version>
+        <exclusions>
+            <exclusion>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+            </exclusion>
+        </exclusions>
+    </dependency>
+```
+
+
