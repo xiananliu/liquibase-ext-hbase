@@ -6,3 +6,15 @@ liquibase support hbase-phoenix
 
 目前只在 hbase 2.0 和phoenix 5.0.0上测试过，其他版本暂未测试
 
+#使用方法
+
+添加本项目依赖即可
+
+```
+<dependency>
+  <groupId>io.github.xiananliu</groupId>
+  <artifactId>liquibase-ext-hbase</artifactId>
+  <version>1.0</version>
+</dependency>
+
+```
