@@ -10,7 +10,7 @@ liquibase support hbase-phoenix
 
 添加本项目依赖即可
 
-```
+```xml
 <dependency>
   <groupId>io.github.xiananliu</groupId>
   <artifactId>liquibase-ext-hbase</artifactId>
