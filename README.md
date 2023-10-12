@@ -6,7 +6,7 @@ liquibase support hbase-phoenix
 
 目前只在 hbase 2.0 和phoenix 5.0.0上测试过，其他版本暂未测试
 
-#使用方法
+# 使用方法
 
 添加本项目依赖即可
 
@@ -28,7 +28,7 @@ liquibase support hbase-phoenix
     </dependency>
 ```
 
-##其他说明
+# 其他说明
 
 默认依赖了此驱动，需要更换请自行排除
 ```xml
