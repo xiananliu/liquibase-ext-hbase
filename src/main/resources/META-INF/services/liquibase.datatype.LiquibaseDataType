@@ -1,0 +1,1 @@
+liquibase.ext.hbase.datatype.HbaseIntType

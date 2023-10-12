@@ -1,0 +1,8 @@
+liquibase.ext.hbase.sqlgenerator.core.HbaseCreateDatabaseChangeLogLockTableGenerator
+liquibase.ext.hbase.sqlgenerator.core.HbaseCreateDatabaseChangeLogTableGenerator
+liquibase.ext.hbase.sqlgenerator.core.HbaseCreateSequenceGenerator
+liquibase.ext.hbase.sqlgenerator.core.HbaseInitializeDatabaseChangeLogLockTableGenerator
+liquibase.ext.hbase.sqlgenerator.core.HbaseLockDatabaseChangeLogGenerator
+liquibase.ext.hbase.sqlgenerator.core.HbaseMarkChangeSetRanGenerator
+liquibase.ext.hbase.sqlgenerator.core.HbaseUnlockDatabaseChangeLogGenerator
+liquibase.ext.hbase.sqlgenerator.core.UpsertGenerator
